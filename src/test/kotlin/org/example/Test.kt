@@ -37,7 +37,7 @@ class NeoBankTest {
         val submitButton = driver.findElement(By.id("btnNext"))
         submitButton.submit()
 
-
+        // З невідомих причин браузер розшириться на весь екран з 2го разу
         driver.manage().window().fullscreen()
 
 
